@@ -1,0 +1,58 @@
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 460px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.form-group{
+    display: flex;
+    gap: 5px;
+    height: auto;
+}
+
+.label{
+    border: 1px solid black;
+    width: 120px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.choice{
+    border: 1px solid black;
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#delivery-form{
+    border: 1px solid black;
+    width: 437px;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+}
+
+#delivery{
+    width: 98%;
+    height: 50px;
+    margin-top: 5px;
+}
+#button{
+    border: 1px solid black;
+    width: 300px;
+    padding: 5px;
+    width: 437px;
+}
+
+#title{
+    border: 1px solid black;
+    width: 447px;
+    margin-bottom: 5px;
+    text-align: center;
+
+
+}

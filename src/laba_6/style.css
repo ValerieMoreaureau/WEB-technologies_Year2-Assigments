@@ -1,0 +1,126 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+#wrapper{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    height: 100%;
+}
+
+#info-block{
+    width: 40%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+#about-me{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+
+}
+#position{
+    background-color: rgb(222, 222, 222);
+    text-align: center;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#social-media{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    justify-content: center;
+}
+
+.line{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#download{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: blue;
+    padding:5px 10px ;
+    justify-content: center;
+    width: 150px;
+    margin: 0 auto;
+
+}
+
+#photo{
+    width: 100px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+#navigation{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-right: 20px;
+    align-items: center;
+}
+
+#navigation ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+#about-ul{
+    padding: 10px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgb(224, 224, 224);
+    padding: 30px;
+}

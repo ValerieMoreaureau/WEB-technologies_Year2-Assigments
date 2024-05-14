@@ -1,0 +1,84 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px; 
+  height: 50px; 
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin-right: 0;
+  background-color: gray;
+  color: white;
+}
+.button-orange {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 50px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin-right: 0;
+  background-color: orange;
+  color: white;
+  font-size: larger;
+}
+
+.double-button {
+  width: 120px;
+  background-color: gray;
+  color: white;
+  border: 1px solid #ccc;
+}
+.button-dark-gray{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    width: 60px; 
+    height: 50px; 
+    border: 1px solid #ccc;
+}
+.display {
+  width: 218px;
+  height: 50px;
+  border: 1px solid #ccc;
+  font-size: 48px;
+  padding: 10px;
+  color: white;
+  text-align:end;
+  position: relative;
+  background-color: rgb(59, 59, 59);
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: yellow;
+    left: 20px; 
+  }
+  
+  .green {
+    background-color: green;
+    left: 35px; 
+  }

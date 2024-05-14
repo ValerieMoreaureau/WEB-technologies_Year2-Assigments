@@ -1,0 +1,23 @@
+table {
+ 
+  width: 500px;
+
+  margin: 0 auto;
+}
+
+thead th {
+  border: 1px solid black;
+}
+tbody td {
+  height: 30px;
+  border: 1px solid black;
+}
+tr.no-border td {
+  border: none;
+}
+tbody td.no-up-border {
+  border-bottom: none;
+}
+tbody td.no-collapse {
+  border-collapse: separate;
+}

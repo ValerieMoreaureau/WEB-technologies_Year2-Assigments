@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <form id="form">
+        <div id="title">
+            <h3>Pizza Shop 2.0</h3>
+        </div>
+
+        <div class="form-group">
+            <label for="nameInput" class="label">Name</label>
+            <div class="choice">
+                <input type="text" id="nameInput" placeholder="Enter your name" required>
+            </div>
+            
+
+        </div>
+        <div class="form-group">
+            <label for="topping" class="label">Pizza Topping</label>
+
+        <div id="topping" class="choice">
+            <input type="checkbox" id="choice1">
+            <label for="choice1">Suprime</label> <br>
+            <input type="checkbox" id="choice2">
+            <label for="choice2">Vegeterian</label> <br>
+            <input type="checkbox" id="choice3">
+            <label for="choice3">Hawaiian</label>
+        </div>
+
+        </div>
+
+        <div class="form-group">
+            <label for="sauce" class="label">Pizza Sauce</label>
+            <div class="choice">
+                <select  id="sauce" required>
+                    <option value="">Tomato</option>
+                </select>
+
+            </div>
+
+        </div>
+
+        <div class="form-group">
+            <label for="extras" class="label">Optional extras</label>
+        <div class="choice">
+            <input type="checkbox" id="sauce1">
+        <label for="sauce1">Extra cheese</label> 
+        <input type="checkbox" id="sauce2">
+        <label for="sauce2">Gluten Free Base</label> 
+
+        </div>
+
+        </div>
+
+        <div id="delivery-form">
+            <label for="delivery">Delivery Instructions:</label> <br>
+            <textarea  id="delivery"placeholder="Enter any special instructions for delivery" required></textarea> 
+
+        </div>
+        <div id="button">
+            <button>Send my order</button>
+
+        </div>
+        
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,80 @@
+.calculator {
+  display: grid;
+  grid-template-rows: auto; 
+  grid-template-columns: repeat(4, 1fr); 
+
+  width: 300px;
+  margin: 0 auto;
+}
+
+.row {
+  display: contents; 
+}
+
+.button, .button-orange, .button-dark-gray {
+  width: 80px;
+  height: 50px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: grid;
+  place-items: center; 
+
+}
+
+.button {
+  background-color: gray;
+  color: white;
+}
+
+.button-orange {
+  background-color: orange;
+  color: white;
+  font-size: larger;
+}
+
+.double-button {
+  grid-column: span 2; 
+  background-color: gray;
+  color: white;
+  border: 1px solid #ccc;
+}
+
+.button-dark-gray {
+  background-color: rgb(59, 59, 59);
+  color: white;
+}
+
+.display {
+  grid-column: span 4;
+  height: 50px;
+  border: 1px solid #ccc;
+  font-size: 48px;
+  padding: 10px;
+  color: white;
+  text-align: end;
+  position: relative;
+  background-color: rgb(59, 59, 59);
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+}
+
+.red {
+  background-color: red;
+  left: 5px;
+}
+
+.yellow {
+  background-color: yellow;
+  left: 20px;
+}
+
+.green {
+  background-color: green;
+  left: 35px;
+}

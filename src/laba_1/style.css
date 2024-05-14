@@ -1,0 +1,30 @@
+h3{
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: right;
+    margin-right:40px;
+}
+p{
+    font-size: 21px;
+}
+.line{
+    height: 0.5px;
+    width: 100%;
+    background-color: black;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: auto;
+   
+}
+#red{
+    color: red;
+}
